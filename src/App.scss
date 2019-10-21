@@ -1,1 +1,43 @@
 @import '../node_modules/bulma';
+
+.box-image{
+    border-radius: 8px;
+    border: 1px solid #f1f1f1;
+    -webkit-box-shadow: 42px 69px 129px -44px rgba(97,97,97,1);
+    -moz-box-shadow: 42px 69px 129px -44px rgba(97,97,97,1);
+    box-shadow: 42px 69px 129px -44px rgba(97,97,97,1);
+}
+
+.title {
+    margin: 10px 0;
+}
+
+.subtitle {
+    line-height: 2.5rem;
+}
+
+.three-quarters-height{
+    height: 75vh;
+}
+
+.columns{
+    margin: 150px 0;
+}
+
+.tag{
+    margin: 0 5px 5px 0;
+}
+
+.hero-title{
+    font-size: 70px;
+    line-height: 70px;
+    font-weight: 700;
+}
+
+.hero-subtitle{
+    font-size: 25px;
+}
+
+.title{
+    font-size: 40px;
+}

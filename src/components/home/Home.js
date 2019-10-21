@@ -29,8 +29,8 @@ export default function Home() {
                                 <p className="hero-subtitle">@juansinmiedos</p>
                                 <p className="hero-title">FULL STACK <br/> WEB DEVELOPER</p><br/>
                                 <p className="hero-subtitle">Soon here will be adescription of my main projects. In the meantime feel free to connect with me on LinkedIn or see my repositories on GitHub.</p><br/>
-                                <button className="button is-info is-inverted"><i className="fab fa-github"></i>&nbsp;GitHub</button>
-                                <button className="button is-info is-inverted"><i className="fab fa-github"></i>&nbsp;LinkedIn</button>
+                                <button className="button is-info is-inverted"><i className="fa fa-github"></i>&nbsp;GitHub</button>
+                                <button className="button is-info is-inverted"><i className="fa fa-linkedin"></i>&nbsp;LinkedIn</button>
                             </div>
                         </div>
                     </div>
@@ -95,16 +95,6 @@ export default function Home() {
                     </div>
                 </div>
             </section>
-
-            <footer className="footer">
-                <div className="content has-text-centered">
-                    <p>
-                        <strong>Bulma</strong> by <a href="https://jgthms.com">Jeremy Thomas</a>. The source code is licensed
-                        <a href="http://opensource.org/licenses/mit-license.php">MIT</a>. The website content
-                        is licensed <a href="http://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY NC SA 4.0</a>.
-                    </p>
-                </div>
-            </footer>
         </>
     )
 }

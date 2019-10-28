@@ -4,17 +4,12 @@ import { Link } from 'react-router-dom'
 export default function Yucaterco() {
     return (
         <>
-            <section class="hero is-info is-bold">
-                <div class="hero-head">
-                    <nav class="navbar">
-                        <div class="container">
-                            <div class="navbar-brand">
-                                <Link to="/" class="navbar-item">@juansinmiedos</Link>
-                                <span class="navbar-burger burger" data-target="navbarMenuHeroB">
-                                    <span></span>
-                                    <span></span>
-                                    <span></span>
-                                </span>
+            <section className="hero is-info is-bold">
+                <div className="hero-head">
+                    <nav className="navbar">
+                        <div className="container">
+                            <div className="navbar-brand">
+                                <Link to="/" className="navbar-item">@juansinmiedos</Link>
                             </div>
                         </div>
                     </nav>
@@ -23,71 +18,71 @@ export default function Yucaterco() {
 
             {/* <!-- Yucaterco --> */}
             <section>
-                <div class="container">
-                    <div class="columns is-vcentered is-multiline">
-                        <div class="column is-three-quarters">
-                            <span class="tag is-success is-medium"><i class="fas fa-star"></i>&nbsp;Winner</span>
-                            <h1 class="title">Yucaterco</h1>
-                            <p class="subtitle"><b>Web development basics</b></p>
-                            <p class="subtitle">
+                <div className="container">
+                    <div className="columns is-vcentered is-multiline">
+                        <div className="column is-three-quarters">
+                            <span className="tag is-success is-medium"><i className="fa fa-star"></i>&nbsp;Winner</span>
+                            <h1 className="title">Yucaterco</h1>
+                            <p className="subtitle"><b>Web development basics</b></p>
+                            <p className="subtitle">
                                 Yucaterco is a pixel-art videogame developed using exclusively HTML5 canvas, CSS3 and JavaScript. In this game the main chracter runs through the streets of Mérida, avoiding his enemies, eating "cochinita pibil" and drinking Coke to survive: All of this with the help of his (not so helpful) companion, the Campechan.
                             </p>
-                            <span class="tag is-info is-medium">HTML5</span>
-                            <span class="tag is-info is-medium">CSS3</span>
-                            <span class="tag is-info is-medium">JavaScript</span>
+                            <span className="tag is-info is-medium">HTML5</span>
+                            <span className="tag is-info is-medium">CSS3</span>
+                            <span className="tag is-info is-medium">JavaScript</span>
                         </div>
-                        <div class="column is-full">
-                            <div class="column">
-                                <img class="box-image" src="/prin-yuca.png" alt="Yucaterco-principal" />
+                        <div className="column is-full">
+                            <div className="column">
+                                <img className="box-image" src="/prin-yuca.png" alt="Yucaterco-principal" />
                             </div>
                         </div>
                     </div>
-                    <div class="columns is-centered">
+                    <div className="columns is-centered">
                         
-                        <div class="column">
-                            <h1 class="title">About this project</h1>
-                            <p class="subtitle">
+                        <div className="column">
+                            <h1 className="title">About this project</h1>
+                            <p className="subtitle">
                                 Yucaterco is a project developed in 4 days:from Monday 26th to Thursday 29th August, 2019 and was presented on Friday August 30th, as final exam of the 1st Module of Ironhack's Full Time Web Development Bootcamp.<br /><br />
                                 The idea of this game originated from my experience as a foraigner living in Mérida: Yucaterco is part a tribute and part a mockery of people of Yucatan, especially those who consider that the people migrating to Mérida are "invadors" destroying their culture. FYI: My friends in Yucatan took a good laugh when they played it ;) <br /><br />
                                 All of the graphic resources used on the videogame were designed by me, taking as inspiration the characters of the classic game: Mario Bros. <br /><br />
                                 With this project I was chose one of the three winners of the 1st Module of my generation. <br /><br />
                                 DISCLAIMER: Not a single Yucatecan was harmed during the creation of this game.
                             </p>
-                            <button class="button is-info is-medium"><i class="fas fa-gamepad"></i>&nbsp;Play the game!</button>
-                            <button class="button is-info is-medium"><i class="fab fa-github"></i>&nbsp;See project on GitHub</button>
+                            <button className="button is-info is-medium"><i className="fas fa-gamepad"></i>&nbsp;Play the game!</button>
+                            <button className="button is-info is-medium"><i className="fab fa-github"></i>&nbsp;See project on GitHub</button>
                         </div>
-                        <div class="column">
-                            <div class="columns is-multiline is-vcentered">
-                                <div class="column is-half has-text-centered"><img src="/yucaterco.png" width="50%" alt="yucaterco" /></div>
-                                <div class="column is-half has-text-centered"><img src="/yucaterca.png" width="50%" alt="yucaterca" /></div>
-                                <div class="column is-half has-text-centered"><img src="/campechanito.png" width="50%" alt="campechanito" /></div>
-                                <div class="column is-half has-text-centered"><img src="/campechanita.png" width="50%" alt="campechanita" /></div>
-                                <div class="column is-half has-text-centered"><img src="/tabasqueñito.png" width="50%" alt="tabasqueñito" /></div>
-                                <div class="column is-half has-text-centered"><img src="/chilanguito.png" width="50%" alt="chilanguito" /></div>
+                        <div className="column">
+                            <div className="columns is-multiline is-vcentered">
+                                <div className="column is-half has-text-centered"><img src="/yucaterco.png" width="50%" alt="yucaterco" /></div>
+                                <div className="column is-half has-text-centered"><img src="/yucaterca.png" width="50%" alt="yucaterca" /></div>
+                                <div className="column is-half has-text-centered"><img src="/campechanito.png" width="50%" alt="campechanito" /></div>
+                                <div className="column is-half has-text-centered"><img src="/campechanita.png" width="50%" alt="campechanita" /></div>
+                                <div className="column is-half has-text-centered"><img src="/tabasqueñito.png" width="50%" alt="tabasqueñito" /></div>
+                                <div className="column is-half has-text-centered"><img src="/chilanguito.png" width="50%" alt="chilanguito" /></div>
                             </div>
                         </div>
                     </div>
-                    <div class="columns">
-                        <div class="column is-half">
-                            <img class="box-image" src="/2-yuca.png" alt="Yucaterco-principal" />    
+                    <div className="columns scrolling-wrapper-flexbox">
+                        <div className="column is-half">
+                            <img className="box-image" src="/2-yuca.png" alt="Yucaterco-principal" />    
                         </div>
-                        <div class="column is-half">
-                            <img class="box-image" src="/3-yuca.png" alt="Yucaterco-principal" />    
+                        <div className="column is-half">
+                            <img className="box-image" src="/3-yuca.png" alt="Yucaterco-principal" />    
                         </div>
-                        <div class="column is-half">
-                            <img class="box-image" src="/1-yuca.png" alt="Yucaterco-principal" />    
+                        <div className="column is-half">
+                            <img className="box-image" src="/1-yuca.png" alt="Yucaterco-principal" />    
                         </div>
                     </div>
                 </div>
             </section>
 
             <section>
-                <div class="container">
-                    <div class="columns">
-                        <div class="column">
-                            <h2 class="title">Let's work together!</h2>
-                            <p class="subtitle">If you are looking for a developer </p>
-                            <p class="subtitle">If you are looking for a developer </p>
+                <div className="container">
+                    <div className="columns">
+                        <div className="column">
+                            <h2 className="title">Let's work together!</h2>
+                            <p className="subtitle">If you are looking for a developer </p>
+                            <p className="subtitle">If you are looking for a developer </p>
                         </div>
                     </div>
                 </div>

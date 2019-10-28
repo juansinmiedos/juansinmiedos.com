@@ -5,32 +5,31 @@ export default function Home() {
     return (
         <>
             <section className="hero is-info is-fullheight is-bold">
-                    <div className="hero-head">
-                        <nav className="navbar">
-                            <div className="container">
-                                <div className="navbar-brand">
-                                    <Link to="/" className="navbar-item">@juansinmiedos</Link>
-                                    <span className="navbar-burger burger" data-target="navbarMenuHeroB">
-                                        <span></span>
-                                        <span></span>
-                                        <span></span>
-                                    </span>
-                                </div>
+                <div className="hero-head">
+                    <nav className="navbar">
+                        <div className="container">
+                            <div className="navbar-brand">
+                                <Link to="/" className="navbar-item">@juansinmiedos</Link>
                             </div>
-                        </nav>
-                    </div>
+                        </div>
+                    </nav>
+                </div>
                 <div className="hero-body">
                     <div className="container has-text-left">
                         <div className="columns is-vcentered">
                             <div className="column">
-                                <img src="./profile.png" alt="profile" />
+                                <img src="./profile.png" alt="profile" width="100%" />
                             </div>
                             <div className="column">
                                 <p className="hero-subtitle">@juansinmiedos</p>
                                 <p className="hero-title">FULL STACK <br/> WEB DEVELOPER</p><br/>
-                                <p className="hero-subtitle">Soon here will be adescription of my main projects. In the meantime feel free to connect with me on LinkedIn or see my repositories on GitHub.</p><br/>
-                                <button className="button is-info is-inverted"><i className="fa fa-github"></i>&nbsp;GitHub</button>
-                                <button className="button is-info is-inverted"><i className="fa fa-linkedin"></i>&nbsp;LinkedIn</button>
+                                <p className="hero-subtitle">Hi, my name is Juan C. Vidal a.k.a <b>juansinmiedos</b>. Here, you will see some of my most relevant personal projects.<br/><br/>Also feel free to connect with me on LinkedIn, see my repositories on GitHub or directly email me at <b><a href="mailto:juan@juansinmiedos.com" target="_blank" rel="noopener noreferrer">juan@juansinmiedos.com</a></b></p><br/>
+                                <a href="https://github.com/juansinmiedos" rel="noopener noreferrer" target="_blank">
+                                    <button className="button is-info is-inverted"><i className="fa fa-github"></i>&nbsp;GitHub</button>
+                                </a>
+                                <a href="https://www.linkedin.com/in/vidaldominguez/" rel="noopener noreferrer" target="_blank">
+                                    <button className="button is-info is-inverted"><i className="fa fa-linkedin"></i>&nbsp;LinkedIn</button>
+                                </a>
                             </div>
                         </div>
                     </div>

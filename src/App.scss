@@ -8,36 +8,61 @@
     box-shadow: 42px 69px 129px -44px rgba(97,97,97,1);
 }
 
+.scrolling-wrapper-flexbox {
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+}
+
 .title {
     margin: 10px 0;
 }
 
 .subtitle {
+    font-size: 16px;
     line-height: 2.5rem;
 }
 
-.three-quarters-height{
-    height: 75vh;
+.button {
+    margin: 0 5px;
 }
 
-.columns{
-    margin: 150px 0;
-}
+// .columns{
+//     margin: 150px 0;
+// }
 
 .tag{
     margin: 0 5px 5px 0;
 }
 
 .hero-title{
-    font-size: 70px;
-    line-height: 70px;
+    font-size: 60px;
+    line-height: 60px;
     font-weight: 700;
 }
 
 .hero-subtitle{
-    font-size: 25px;
+    font-size: 20px;
 }
 
 .title{
     font-size: 40px;
+}
+
+.footer{
+    background-color: #f1f1f1;
+}
+
+.card {
+    width: 50ch;
+    height: 75ch;
+    background: grey;
+    border-radius: 5%;
+    background-image: url(https://images.unsplash.com/photo-1542080681-b52d382432af?ixlib=rb-1.2.1&w=1000&q=80);
+    background-size: cover;
+    background-position: center center;
+    box-shadow: 0px 10px 30px -5px rgba(0, 0, 0, 0.3);
+    transition: box-shadow 0.5s;
+    will-change: transform;
+    border: 1px solid #AC2C2E;
 }

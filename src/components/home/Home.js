@@ -1,5 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
+import Contact from '../contact/Contact'
 
 export default function Home() {
     return (
@@ -83,17 +84,7 @@ export default function Home() {
         //     </div>
         // </section> */}
 
-            <section>
-                <div className="container">
-                    <div className="columns">
-                        <div className="column">
-                            <h2 className="title">Let's work together!</h2>
-                            <p className="subtitle">If you are looking for a developer </p>
-                            <p className="subtitle">If you are looking for a developer </p>
-                        </div>
-                    </div>
-                </div>
-            </section>
+        <Contact />
         </>
     )
 }

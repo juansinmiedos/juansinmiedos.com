@@ -25,10 +25,10 @@ export default function Home() {
                                 <p className="hero-title">FULL STACK <br/> WEB DEVELOPER</p><br/>
                                 <p className="hero-subtitle">Hi, my name is Juan C. Vidal a.k.a <b>juansinmiedos</b>. Here, you will see some of my most relevant personal projects.<br/><br/>Also feel free to connect with me on LinkedIn, see my repositories on GitHub or directly email me at <b><a href="mailto:juan@juansinmiedos.com" target="_blank" rel="noopener noreferrer">juan@juansinmiedos.com</a></b></p><br/>
                                 <a href="https://github.com/juansinmiedos" rel="noopener noreferrer" target="_blank">
-                                    <button className="button is-info is-inverted"><i className="fa fa-github"></i>&nbsp;GitHub</button>
+                                    <button className="button is-info is-inverted is-medium"><i className="fa fa-github"></i>&nbsp;GitHub</button>
                                 </a>
                                 <a href="https://www.linkedin.com/in/vidaldominguez/" rel="noopener noreferrer" target="_blank">
-                                    <button className="button is-info is-inverted"><i className="fa fa-linkedin"></i>&nbsp;LinkedIn</button>
+                                    <button className="button is-info is-inverted is-medium"><i className="fa fa-linkedin"></i>&nbsp;LinkedIn</button>
                                 </a>
                             </div>
                         </div>

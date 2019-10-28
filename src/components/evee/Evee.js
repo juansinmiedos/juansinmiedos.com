@@ -64,8 +64,7 @@ export default function Evee() {
                                 With this project I was chose one of the three winners of the 1st Module of my generation. <br /><br />
                                 DISCLAIMER: Not a single Yucatecan was harmed during the creation of this game.
                             </p>
-                            <button className="button is-info is-medium"><i className="fas fa-gamepad"></i>&nbsp;Play the game!</button>
-                            <button className="button is-info is-medium"><i className="fab fa-github"></i>&nbsp;See project on GitHub</button>
+                            <button className="button is-info is-medium"><i className="fa fa-github"></i>&nbsp;See project on GitHub</button>
                         </div>
                     </div>
 

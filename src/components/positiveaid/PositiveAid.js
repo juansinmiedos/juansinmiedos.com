@@ -7,15 +7,6 @@ export default function PositiveAid() {
     const calc = (x, y) => [-(y - window.innerHeight / 2) / 20, (x - window.innerWidth / 2) / 20, 1.1]
     const trans = (x, y, s) => `perspective(600px) rotateX(${x}deg) rotateY(${y}deg) scale(${s})`
 
-    const sessionChecker = () => {
-        const sessionaux = JSON.parse(localStorage.getItem('user'))
-        if(sessionaux == null){
-            return(
-                <Link to="/crear-cuenta"><button className="button button-white">Crear una cuenta</button></Link>
-            )
-        }
-    }
-
     function Card() {
         const [props, set] = useSpring(() => ({ xys: [0, 0, 1], config: { mass: 5, tension: 350, friction: 40 } }))
         return (
@@ -82,8 +73,7 @@ export default function PositiveAid() {
                                 With this project I was chose one of the three winners of the 1st Module of my generation. <br /><br />
                                 DISCLAIMER: Not a single Yucatecan was harmed during the creation of this game.
                             </p>
-                            <button className="button is-info is-medium"><i className="fas fa-gamepad"></i>&nbsp;Play the game!</button>
-                            <button className="button is-info is-medium"><i className="fab fa-github"></i>&nbsp;See project on GitHub</button>
+                            <button className="button is-info is-medium"><i className="fa fa-github"></i>&nbsp;See project on GitHub</button>
                         </div>
                     </div>
                     <div className="columns scrolling-wrapper-flexbox">

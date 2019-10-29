@@ -44,10 +44,10 @@ export default function Yucaterco() {
                         <div className="column">
                             <h1 className="title">About this project</h1>
                             <p className="subtitle">
-                                Yucaterco is a project developed in 4 days: from Monday 26th to Thursday 29th August, 2019 and was presented on Friday August 30th, as final exam of the 1st Module of Ironhack's Full Time Web Development Bootcamp.<br /><br />
+                                Yucaterco is a project developed in 4 days: from Monday 26th to Thursday 29th August, 2019 and was presented on Friday August 30th, as final exam of the 1st module of Ironhack's Full Time Web Development Bootcamp.<br /><br />
                                 The idea of this game originated from my experience as a foraigner living in Mérida: Yucaterco is part a tribute and part a mockery of people of Yucatan, especially those who consider that the people migrating to Mérida are "invadors" destroying their culture. FYI: My friends in Yucatan took a good laugh when they played it ;) <br /><br />
                                 All of the graphic resources used on the videogame were designed by me, taking as inspiration the characters of the classic game: Mario Bros. <br /><br />
-                                With this project I was chosen one of the three winners of the 1st Module of my generation. <br /><br />
+                                With this project I was chosen one of the three winners of the 1st module of the bootcamp, of that generation. <br /><br />
                                 DISCLAIMER: Not a single Yucatecan was harmed during the creation of this game.
                             </p>
                             <a href="https://juansinmiedos.github.io/Yucaterco/" rel="noopener noreferrer" target="_blank">

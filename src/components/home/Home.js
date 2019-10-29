@@ -8,9 +8,9 @@ export default function Home() {
             <div className="hero">
                 <div className="hero-body">
                     <div className="container has-text-left">
-                        <div className="columns is-vcentered">
+                        <div className="columns is-centered is-vcentered">
                             <div className="column">
-                                <img className="box-image" src="./profile.png" alt="profile" width="80%" />
+                                <img className="box-image" src="./profile.png" alt="profile" width="90%" />
                             </div>
                             <div className="column">
                                 <p className="hero-subtitle">@juansinmiedos</p>
@@ -28,7 +28,7 @@ export default function Home() {
                 </div>
             </div>
 
-            <section>
+            <section className="section">
                 <div className="container">
                     <div className="columns is-vcentered is-centered is-multiline">
                         <div className="column is-three-quarters">
@@ -96,7 +96,7 @@ export default function Home() {
                         </div>
 
                         <div className="column">
-                            <Link to="/yucaterco">
+                            <Link to="/evee">
                             <div class="card">
                                 <div class="card-image">
                                     <figure class="image is-4by3 evee"></figure>
@@ -117,7 +117,7 @@ export default function Home() {
                         </div>
 
                         <div className="column">
-                            <Link to="/yucaterco">
+                            <Link to="/positiveaid">
                             <div class="card">
                                 <div class="card-image">
                                     <figure class="image is-4by3 aid"></figure>

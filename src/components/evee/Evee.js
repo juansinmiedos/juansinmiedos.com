@@ -34,7 +34,7 @@ export default function Evee() {
                 </div>
             </div>
 
-            <section>
+            <section className="section">
                 <div className="container">
                     <div className="columns is-vcentered">
                         <div className="column is-full">
@@ -43,7 +43,8 @@ export default function Evee() {
                     </div>
                 </div>
             </section>
-            <section>
+
+            <section className="section">
                 <div className="container">
                     <div className="columns is-centered is-vcentered">
                         <div className="column is-three-quarters">
@@ -61,7 +62,8 @@ export default function Evee() {
                     </div>
                 </div>
             </section>
-            <section>
+
+            <section className="section">
                 <div className="container">
                     <div className="columns is-vcentered scrolling-wrapper-flexbox">
                             <div className="column is-half">

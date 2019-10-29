@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function Contact() {
     return (
-        <section>
+        <section className="section">
             <div className="container">
                 <div className="columns is-vcentered is-centered">
                     <div className="column is-three-quarters">

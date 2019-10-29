@@ -27,7 +27,7 @@ export default function Yucaterco() {
                 </div>
             </div>
 
-            <section>
+            <section className="section">
                 <div className="container">
                     <div className="columns is-vcentered">
                         <div className="column is-full">
@@ -38,7 +38,8 @@ export default function Yucaterco() {
                     </div>
                 </div>
             </section>
-            <section>
+
+            <section className="section">
                 <div className="container">
                     <div className="columns is-centered is-vcentered"> 
                         <div className="column">
@@ -70,7 +71,8 @@ export default function Yucaterco() {
                     </div>
                 </div>
             </section>
-            <section>
+
+            <section className="section">
                 <div className="container">
                     <div className="columns scrolling-wrapper-flexbox">
                         <div className="column is-half">

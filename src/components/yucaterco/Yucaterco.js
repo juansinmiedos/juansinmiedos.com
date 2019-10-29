@@ -14,8 +14,8 @@ export default function Yucaterco() {
                             <div className="column is-three-quarters">
                                 <span className="tag is-success is-medium"><i className="fa fa-star"></i>&nbsp;Winner</span>
                                 <h1 className="title">Yucaterco</h1>
-                                <p className="subtitle"><b>Web development basics</b></p>
                                 <p className="subtitle">
+                                    <b>Web development basics</b><br />
                                     Yucaterco is a pixel-art videogame developed using exclusively HTML5 canvas, CSS3 and JavaScript. In this game the main chracter runs through the streets of Mérida, avoiding his enemies, eating "cochinita pibil" and drinking Coke to survive: All of this with the help of his (not so helpful) companion, the Campechan.
                                 </p>
                                 <span className="tag is-info is-medium">HTML5</span>

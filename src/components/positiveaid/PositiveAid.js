@@ -31,8 +31,8 @@ export default function PositiveAid() {
                             <div className="column is-three-quarters">
                                 <span className="tag is-success is-medium"><i className="fa fa-star"></i>&nbsp;Winner</span>
                                 <h1 className="title">(+)aid</h1>
-                                <p className="subtitle">Complete MERN Stack</p>
                                 <p className="subtitle">
+                                    <b>Complete MERN Stack</b><br />
                                     (+)aid is a platform in which people who lives with HIV can create an account, upload their lab results, track their medical records, upload their medication scheme and schedule appointments.<br />Although this was an academic project, I am currently working on it for a future release.
                                 </p>
                                 <span className="tag is-info is-medium">HTML5</span>

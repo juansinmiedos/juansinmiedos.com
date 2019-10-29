@@ -65,7 +65,9 @@ export default function Evee() {
                                 With this project I was chose one of the three winners of the 1st Module of my generation. <br /><br />
                                 DISCLAIMER: Not a single Yucatecan was harmed during the creation of this game.
                             </p>
-                            <button className="button is-info is-medium"><i className="fa fa-github"></i>&nbsp;See project on GitHub</button>
+                            <a href="https://github.com/juansinmiedos/Evee" rel="noopener noreferrer" target="_blank">
+                                <button className="button is-info is-medium"><i className="fa fa-github"></i>&nbsp;See project on GitHub</button>
+                            </a>
                         </div>
                     </div>
                 </div>

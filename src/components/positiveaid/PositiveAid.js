@@ -70,13 +70,15 @@ export default function PositiveAid() {
                         <div className="column">
                             <h1 className="title">About this project</h1>
                             <p className="subtitle">
-                                (+)aid is a project developed in 10 days: from Monday, September 30th to Wednesday, October 9th, 2019 and was presented on Thursday October 10th, as final exam of the last Module of Ironhack's Full Time Web Development Bootcamp, and subsequently the next day on Ironhack's Hackshow.<br /><br />
+                                (+)aid is a project developed in 10 days: presented as final exam of the last Module of Ironhack's Full Time Web Development Bootcamp, and subsequently the next day on Ironhack's Hackshow.<br /><br />
                                 The idea came-up when I met a co-worker living with HIV who started to educate us all about his condition. As a result of this I realize that nowadays the biggest problem with HIV is that people don't know about it enough, even people that are currently living with it. This ignorance (and often fear) put their lives at risk, as they do not know their status and cannot start treatment to help them maintain a good quality of life.<br /><br />
                                 (+)aid helps this people by providing a platform that would track all their data and save it as a medical record, asweel as providing constant information about their status and even some reccomendations for a general lifestyle.<br /><br />
                                 For the making of this platform I interviewed people with HIV, social workers and doctors to draw a user-centered roadmap, and focused on the main functionality to present the MVP as my final project. Feel free to check the roadmap of my project on GitHub.<br /><br />
                                 With this project I was chosen one of the three winners of the last Module, and presented it on Ironhack's Hackshow.
                             </p>
-                            <button className="button is-info is-medium"><i className="fa fa-github"></i>&nbsp;See project on GitHub</button>
+                            <a href="https://github.com/juansinmiedos/Positive-Aid" rel="noopener noreferrer" target="_blank">
+                                <button className="button is-info is-medium"><i className="fa fa-github"></i>&nbsp;See project on GitHub</button>
+                            </a>
                         </div>
                     </div>
                 </div>

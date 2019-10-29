@@ -1,14 +1,18 @@
 @import '../node_modules/bulma';
 
+section{
+    margin: 50px;
+}
+
 .box-image{
-    border-radius: 8px;
-    border: 1px solid #f1f1f1;
+    border-radius: 20px;
     -webkit-box-shadow: 42px 69px 129px -44px rgba(97,97,97,1);
     -moz-box-shadow: 42px 69px 129px -44px rgba(97,97,97,1);
     box-shadow: 42px 69px 129px -44px rgba(97,97,97,1);
 }
 
 .scrolling-wrapper-flexbox {
+    height: 45vh;
     display: flex;
     flex-wrap: nowrap;
     overflow-x: auto;
@@ -53,16 +57,25 @@
     background-color: #f1f1f1;
 }
 
-.card {
+.animated-card {
     width: 50ch;
     height: 75ch;
     background: grey;
-    border-radius: 5%;
+    border-radius: 20px;
     background-image: url(https://images.unsplash.com/photo-1542080681-b52d382432af?ixlib=rb-1.2.1&w=1000&q=80);
     background-size: cover;
     background-position: center center;
     box-shadow: 0px 10px 30px -5px rgba(0, 0, 0, 0.3);
     transition: box-shadow 0.5s;
     will-change: transform;
-    border: 1px solid #AC2C2E;
+}
+
+.card {
+    border-radius: 20px;
+    box-shadow: 0px 10px 30px -5px rgba(0, 0, 0, 0.3);
+}
+
+.image > img {
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
 }

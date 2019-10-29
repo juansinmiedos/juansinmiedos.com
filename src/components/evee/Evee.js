@@ -1,23 +1,11 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
 import Contact from '../contact/Contact'
+import Navbar from '../navbar/Navbar'
 
 export default function Evee() {
     return (
         <>
-            <section className="hero is-info is-bold">
-                <div className="hero-head">
-                    <nav className="navbar">
-                        <div className="container">
-                            <div className="navbar-brand">
-                                <Link to="/" className="navbar-item">@juansinmiedos</Link>
-                            </div>
-                        </div>
-                    </nav>
-                </div>
-            </section>
-
-            {/* <!-- Evee --> */}
+            <Navbar />
             <section>
                 <div className="container">
                     <div className="columns is-vcentered is-multiline">
@@ -44,7 +32,10 @@ export default function Evee() {
                             <img className="box-image" src="/prin-evee.png" alt="Yucaterco-principal" />
                         </div>
                     </div>
-                    
+                </div>
+            </section>
+            <section>
+                <div className="container">
                     <div className="columns is-centered">
                         <div className="column">
                             <div className="columns is-multiline is-vcentered">

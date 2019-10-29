@@ -1,23 +1,11 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
 import Contact from '../contact/Contact'
+import Navbar from '../navbar/Navbar'
 
 export default function Yucaterco() {
     return (
         <>
-            <section className="hero is-info is-bold">
-                <div className="hero-head">
-                    <nav className="navbar">
-                        <div className="container">
-                            <div className="navbar-brand">
-                                <Link to="/" className="navbar-item">@juansinmiedos</Link>
-                            </div>
-                        </div>
-                    </nav>
-                </div>
-            </section>
-
-            {/* <!-- Yucaterco --> */}
+            <Navbar />
             <section>
                 <div className="container">
                     <div className="columns is-vcentered is-multiline">
@@ -38,8 +26,11 @@ export default function Yucaterco() {
                             </div>
                         </div>
                     </div>
-                    <div className="columns is-centered">
-                        
+                </div>
+            </section>
+            <section>
+                <div className="container">
+                    <div className="columns is-centered"> 
                         <div className="column">
                             <h1 className="title">About this project</h1>
                             <p className="subtitle">

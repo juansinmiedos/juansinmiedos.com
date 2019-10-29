@@ -44,18 +44,20 @@ export default function Home() {
                                         <td>HTML5</td>
                                         <td>CSS3</td>
                                         <td>JavaScript ES7</td>
-                                        <td>React</td>
                                     </tr>
                                     <tr>
                                         <td>Git</td>
                                         <td>Bulma</td>
                                         <td>Bootstrap</td>
-                                        <td>Handlebars</td>
                                     </tr>
                                     <tr>
                                         <td>Cloudinary</td>
                                         <td>Mapbox</td>
                                         <td>Passport</td>
+                                    </tr>
+                                    <tr>
+                                        <td>React</td>
+                                        <td>Handlebars</td>
                                         <td>Chart.js</td>
                                     </tr>
                                 </tbody>

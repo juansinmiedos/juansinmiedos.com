@@ -5,7 +5,7 @@ export default function Footer() {
         <footer className="footer">
             <div className="content">
                 <div className="container">
-                    <div className="columns">
+                    <div className="columns is-vcentered">
                         <div className="column is-three-quarters">Created by @juansinmiedos</div>
                         <div className="column is-one-quarter has-text-right">
                             <a href="https://github.com/juansinmiedos" rel="noopener noreferrer" target="_blank">

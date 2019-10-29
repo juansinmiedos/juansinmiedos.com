@@ -23,29 +23,38 @@ export default function PositiveAid() {
     return (
         <>
             <Navbar />
+
+            <div className="hero">
+                <div className="hero-body">
+                    <div className="container">
+                        <div className="columns is-centered is-vcentered is-multiline">
+                            <div className="column is-three-quarters">
+                                <span className="tag is-success is-medium"><i className="fa fa-star"></i>&nbsp;Winner</span>
+                                <h1 className="title">(+)aid</h1>
+                                <p className="subtitle">Complete MERN Stack</p>
+                                <p className="subtitle">
+                                    (+)aid is a platform in which people who lives with HIV can create an account, upload their lab results, track their medical records, upload their medication scheme and schedule appointments.<br />Although this was an academic project, I am currently working on it for a future release.
+                                </p>
+                                <span className="tag is-info is-medium">HTML5</span>
+                                <span className="tag is-info is-medium">CSS3</span>
+                                <span className="tag is-info is-medium">JavaScript</span>
+                                <span className="tag is-info is-medium">MongoDB</span>
+                                <span className="tag is-info is-medium">Express</span>
+                                <span className="tag is-info is-medium">Node.js</span>
+                                <span className="tag is-info is-medium">React</span>
+                                <span className="tag is-info is-medium">Victory</span>
+                                <span className="tag is-info is-medium">Cloudinary</span>
+                                <span className="tag is-info is-medium">Passport</span>
+                                <span className="tag is-info is-medium">React-spring</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
             <section>
                 <div className="container">
-                    <div className="columns is-vcentered is-multiline">
-                        <div className="column is-three-quarters">
-                            <span className="tag is-success is-medium"><i className="fa fa-star"></i>&nbsp;Winner</span>
-                            <h1 className="title">(+)aid</h1>
-                            <p className="subtitle">Complete MERN Stack</p>
-                            
-                            <p className="subtitle">
-                                (+)aid is a platform in which people who lives with HIV can create an account, upload their lab results, track their medical records, upload their medication scheme and schedule appointments.<br />Although this was an academic project, I am currently working on it for a future release.
-                            </p>
-                            <span className="tag is-info is-medium">HTML5</span>
-                            <span className="tag is-info is-medium">CSS3</span>
-                            <span className="tag is-info is-medium">JavaScript</span>
-                            <span className="tag is-info is-medium">MongoDB</span>
-                            <span className="tag is-info is-medium">Express</span>
-                            <span className="tag is-info is-medium">Node.js</span>
-                            <span className="tag is-info is-medium">React</span>
-                            <span className="tag is-info is-medium">Victory</span>
-                            <span className="tag is-info is-medium">Cloudinary</span>
-                            <span className="tag is-info is-medium">Passport</span>
-                            <span className="tag is-info is-medium">React-spring</span>
-                        </div>
+                    <div className="columns is-vcentered">
                         <div className="column is-full">
                             <img className="box-image" src="/prin-+aid.png" alt="Yucaterco-principal" />
                         </div>
@@ -70,6 +79,10 @@ export default function PositiveAid() {
                             <button className="button is-info is-medium"><i className="fa fa-github"></i>&nbsp;See project on GitHub</button>
                         </div>
                     </div>
+                </div>
+            </section>
+            <section>
+                <div className="container">
                     <div className="columns scrolling-wrapper-flexbox">
                         <div className="column is-half">
                             <img className="box-image" src="/1+aid.png" alt="Yucaterco-principal" />    

@@ -1,6 +1,7 @@
 import React from 'react'
 import Contact from '../contact/Contact'
 import Navbar from '../navbar/Navbar'
+import PreviousWork from '../previousWork/PreviousWork'
 
 export default function Yucaterco() {
     return (
@@ -87,6 +88,8 @@ export default function Yucaterco() {
                     </div>
                 </div>
             </section>
+
+            <PreviousWork />
 
             <Contact />
         </>

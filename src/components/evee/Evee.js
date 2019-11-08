@@ -1,6 +1,7 @@
 import React from 'react'
 import Contact from '../contact/Contact'
 import Navbar from '../navbar/Navbar'
+import PreviousWork from '../previousWork/PreviousWork'
 
 export default function Evee() {
     return (
@@ -81,6 +82,8 @@ export default function Evee() {
                         </div>
                 </div>
             </section>
+
+            <PreviousWork />
 
             <Contact />
         </>

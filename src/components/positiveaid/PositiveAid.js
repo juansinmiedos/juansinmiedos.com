@@ -2,6 +2,7 @@ import React from 'react'
 import { useSpring, animated } from 'react-spring'
 import Contact from '../contact/Contact'
 import Navbar from '../navbar/Navbar'
+import PreviousWork from '../previousWork/PreviousWork'
 
 export default function PositiveAid() {
 
@@ -103,6 +104,8 @@ export default function PositiveAid() {
                     </div>
                 </div>
             </section>
+
+            <PreviousWork />
 
             <Contact />
         </>
